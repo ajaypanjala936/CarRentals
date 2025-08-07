@@ -1,40 +1,42 @@
-🛻 Car Rental Booking System
-This is a full-stack Car Rental Booking Application that allows users to browse available rental cars, make bookings, and complete payments online.
+🚗 Car Rentals – Full Stack Booking System
+A modern, full-stack Car Rental Booking Platform where users can explore available rental vehicles, book rides with flexible scheduling, and complete secure online payments. This system also includes an admin dashboard for managing cars and bookings.
 
-🔗 Live Frontend Link:
-https://car-rentals-attocars.netlify.app/
+🔗 Live Demo
+👉 Frontend Live Site: https://car-rentals-attocars.netlify.app/
 
-🚀 Features
-Browse rental cars by category
+📁 Project Structure
+bash
+Copy
+Edit
+CarRentals/
+├── Backend/     # Node.js + Express REST API
+├── Frontend/    # React.js Client Application
+✨ Features
+User Features
+🔍 Browse and filter rental cars
 
-View car details with pricing and availability
+📅 Book cars by date and time
 
-User registration & login with JWT authentication
+💳 Choose from multiple payment options (Card, UPI)
 
-Book cars with flexible dates and times
+🎟 Apply promo codes for discounts
 
-Apply promo codes for discounts
+📧 Receive email confirmation after successful booking
 
-Payment gateway integration (Card / UPI)
+Admin Features
+🚘 Add, edit, or remove rental cars
 
-Admin panel for car & booking management
+📑 Manage customer bookings
 
-Booking confirmation email after successful order
+📊 View dashboard and stats
 
-🛠️ Technologies Used
-Frontend: React, CSS
+🧰 Tech Stack
+Frontend: React.js
 
-Backend: Node.js, Express
+Backend: Node.js, Express.js
 
 Database: MongoDB Atlas
 
-Authentication: JWT
+Email Service: Nodemailer
 
-Email: Nodemailer
-
-Deployment:
-
-Frontend: Netlify
-
-Backend: (your deployment method here if hosted)
-
+Deployment: Netlify (Frontend), Railway (Backend optional)
