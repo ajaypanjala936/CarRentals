@@ -1,0 +1,247 @@
+
+.car-rental-container2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+ 
+  .car-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3498db;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #e4dcdc;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #3498db;
+  }
+  
+  .navbar-links a.active {
+    color: #3498db;
+    font-weight: 600;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .login-btn2, .register-btn2 {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .login-btn2 {
+    background: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+  }
+  
+  .login-btn2:hover {
+    background: rgba(52, 152, 219, 0.1);
+  }
+  
+  .register-btn2 {
+    background: #3498db;
+    border: 1px solid #3498db;
+    color: white;
+  }
+  
+  .register-btn2:hover {
+    background: #2980b9;
+    border-color: #2980b9;
+  }
+ 
+  .filter-section2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .filter-group2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-group2 label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .filter-group2 select {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+ 
+  .car-grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .car-card2 {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .car-card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+  
+  .car-badge2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .car-image2 {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .car-info2 {
+    padding: 20px;
+  }
+  
+  .car-info2 h2 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    font-size: 18px;
+  }
+  
+  .car-specs2 {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  .car-specs2 i {
+    margin-right: 5px;
+    color: #3498db;
+  }
+  
+  .car-price2 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .car-price2 small {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f8c8d;
+  }
+  
+  .book-btn2 {
+    width: 100%;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .book-btn2:hover {
+    background: #219955;
+  }
+
+  .no-cars2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .no-cars2 h3 {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .reset-btn2 {
+    padding: 10px 25px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .reset-btn2:hover {
+    background: #2980b9;
+  }
+  
+
+  @media (max-width: 768px) {
+    .car-navbar {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .navbar-links {
+      gap: 15px;
+    }
+    
+    .filter-section2 {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .car-grid2 {
+      grid-template-columns: 1fr;
+    }
+  }
